@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="bos">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehnologije u Pametnim Gradovima</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PAMETNI  GRADOVI</h1>
+            <p class="podnaslov">Tehnologije koje oblikuju našu budućnost</p>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #132f4db6;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tehnologije.html">Tehnologije</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="odrzivost.html">Održivost</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="transport.html">Transport</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <hr>
+        </div>
+
+        <section class="pametnigrad">
+            <h2>Šta su pametni gradovi?</h2>
+            <p>Pametni gradovi koriste tehnologije za poboljšanje kvalitete života svojih građana. To uključuje pametne prometne sisteme, energetski efikasna rješenja i održive prakse. U gradovima kao što su Barcelona i Singapur, tehnologije kao što su IoT (Internet of Things) i velika analitika podataka pomažu u stvaranju učinkovitijeg urbanog prostora.</p>
+            <p>Ova rješenja omogućavaju optimizaciju javnog prijevoza, smanjenje zagađenja i povećanje sigurnosti kroz pametne tehnologije, a u nastavku možete pročitati koje sve tehnologije oni koriste kako bi to postigli.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gXuPXqNdCLw?si=5GKhMsUvU0G_OcSG" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen 
+        class="video-tooltip" 
+        data-tooltip="Ovaj video objašnjava kako pametni gradovi koriste Internet stvari za poboljšanje urbanog života."></iframe>
+        </section>
+
+        <hr>
+
+        <section class="tehnologije">
+            <h2>Tehnologije u pametnim gradovima</h2>
+            <br>
+            <p>Pametni gradovi koriste razne tehnologije kako bi poboljšali život svojih građana. Evo nekoliko ključnih tehnologija:</p>
+            <table>
+                <tr>
+                    <td>
+                        <img src="slike/iot.jpg" alt="Internet of Things">
+                        <strong>Internet stvari (IoT)</strong>
+                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#iotModal" style="background-color: rgb(223, 226, 228);">Više o IoT-u</button>
+                    </td>
+                    <td>
+                        <img src="slike/data.jpg" alt="Podaci">
+                        <strong>Veliki podaci</strong>
+                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#dataModal" style="background-color: rgb(223, 226, 228);">Više o Velikim podacima</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="slike/ai.jpg" alt="Umjetna inteligencija">
+                        <strong>Umjetna inteligencija (AI)</strong>
+                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#aiModal" style="background-color: rgb(223, 226, 228);">Više o AI-u</button>
+                    </td>
+                    <td>
+                        <img src="slike/pps.jpg" alt="Pametni prometni sistemi">
+                        <strong>Pametni prometni sistemi</strong>
+                        <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ppsModal" style="background-color: rgb(223, 226, 228);">Više o Pametnim prometnim sistemima</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="modal fade" id="iotModal" tabindex="-1" aria-labelledby="iotModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="iotModalLabel">Internet stvari (IoT)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Mreža fizičkih objekata povezanih na internet, koja omogućava prikupljanje i razmjenu podataka u realnom vremenu. IoT uređaji omogućavaju pametnu analizu podataka, od pametnih brojila za praćenje potrošnje energije do senzora za praćenje zagađenja zraka.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dataModal" tabindex="-1" aria-labelledby="dataModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="dataModalLabel">Veliki podaci</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Analiza velikih količina podataka pomaže u donošenju boljih odluka i optimizaciji resursa. Korištenjem podataka o potrošnji energije, saobraćaju i ekološkim uvjetima, gradovi mogu unaprijediti učinkovitost, smanjiti troškove i reagirati na krizne situacije u stvarnom vremenu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="aiModal" tabindex="-1" aria-labelledby="aiModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aiModalLabel">Umjetna inteligencija (AI)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>AI se koristi za automatizaciju procesa i poboljšanje efikasnosti u različitim sektorima, uključujući prediktivno održavanje infrastrukture, analizu podataka o prometu, te upravljanje energetskim sistemima. AI može pomoći u donošenju boljih odluka i predviđanju budućih potreba grada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="ppsModal" tabindex="-1" aria-labelledby="ppsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ppsModalLabel">Pametni prometni sistemi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Tehnologije za upravljanje saobraćajem koje pomažu u smanjenju zagušenja, poboljšanju sigurnosti i smanjenju emisije ugljen-dioksida. Ovi sistemi koriste senzore, kamere i analizu podataka za optimizaciju saobraćaja u realnom vremenu, čime se omogućava brži i sigurniji promet u gradovima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button id="scrollTopBtn" style="display: none;" class="btn btn-primary">
+            ↑ Vrati se na vrh
+        </button>
+
+        <footer>
+            <p>Copyright © 2024</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyR2t0T4p6b9F6Xyhljs+a5h7fJXGF2jRkR0p/We" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0QGmggGfWkFEkW7tWkR5r5tb5fjF6dJJr6bZpBYYMQOd87r5" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AG3g2xvY4tHFE2b9JUf4zERvZjbeGTGf9Jr9l8B9M4OB0w/O7tM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+

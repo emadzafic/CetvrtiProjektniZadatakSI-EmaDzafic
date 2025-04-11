@@ -1,0 +1,20 @@
+[
+  {
+    "ime": "Ema Džafić",
+    "email": "ema.dzafic@treca-gimnazija.edu.ba",
+    "poruka": "Komentar",
+    "datum": "2025-04-11"
+  },
+  {
+    "ime": "Ena Džafić",
+    "email": "enadzafic@ses.edu.ba",
+    "poruka": "Komentar2",
+    "datum": "2025-04-11"
+  },
+  {
+    "ime": "Džejla Šehić",
+    "email": "dzejlasehic@treca-gimnazija.edu.ba",
+    "poruka": "Komentar3",
+    "datum": "2025-04-11"
+  }
+]
